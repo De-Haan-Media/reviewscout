@@ -1,0 +1,155 @@
+/* ============ Theme Colors ============ */
+$primary: #80ED99;
+$secondary: #172a3a;
+$body-color: #212529;
+$link-color: #2c8182;
+
+/* ============ Spacings ============ */
+$grid-gutter-width: 1.5rem; 
+$main-padding-top: 4rem;
+$main-padding-bottom: 4rem;
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+);
+
+/* ============ Container ============ */
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 100%,
+  xl: 1206px,
+  xxl: 1206px
+);
+$container-padding-x:  $grid-gutter-width;
+
+/* ============ Navbar ============ */
+$navbar-background: $secondary;
+$navbar-box-shadow: none;
+$navbar-dark-color: rgba(#fff, .55);
+$navbar-padding-y: .75rem;
+$navbar-brand-padding-y: 0;
+$navbar-brand-margin-end: 0;
+$navbar-toggler-padding-y: 0;
+$navbar-toggler-padding-x: 0;
+$btn-close-color: #fff;
+$navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-font-weight: 500;
+$navbar-mobile-collapsed-height: 69.89px;
+$navbar-mobile-item-border: 1px solid #ccc;
+$navbar-mobile-item-background: #fff;
+$navbar-mobile-item-hover-background: #f8f9fa;
+$navbar-mobile-dropdown-background: #f8f9fa;
+$navbar-mobile-logo-height: 32px;
+$navbar-desktop-border: none;
+$navbar-desktop-padding-y: 1rem;
+$navbar-homepage-box-shadow: 0 1px 2px rgba(0, 0, 0, .16);
+
+/* ============ Offcanvas ============ */
+$offcanvas-header-background: $secondary;
+$offcanvas-header-box-shadow: none;
+$offcanvas-header-padding-y: 1rem;
+$offcanvas-header-padding-x: 1.5rem;
+$offcanvas-header-margin-bottom: 1rem;
+$offcanvas-background: #fff;
+$offcanvas-padding-x: 1.5rem;
+
+/* ============ Dropdown ============ */
+$dropdown-toggle-font-size: 12px;
+$dropdown-toggle-line-height: 16px;
+$dropdown-link-active-color: $body-color;
+
+/* ============ Breadcrumbs ============ */
+$breadcrumb-bg: #fff;
+$breadcrumb-box-shadow: 0 1px 2px rgba(0, 0, 0, .16);
+$breadcrumb-link-color: $body-color;
+$breadcrumb-padding-y: .5rem;
+$breadcrumb-padding-x: $grid-gutter-width;
+$breadcrumb-margin-bottom: 0;
+$breadcrumb-margin-top: 0;
+$breadcrumb-seperator-font-size: 10px;
+$breadcrumb-seperator-line-height: 16px;
+
+/* ============ Pagination ============ */
+$pagination-active-color: $body-color;
+
+/* ============ Footer ============ */
+$footer-bg: $secondary;
+$footer-border-top: none;
+$footer-border-bottom: none;
+$footer-color: #fff;
+$footer-link-color: #fff;
+$footer-link-text-decoration: underline;
+
+/* ============ Typography ============ */
+$font-family-font-awesome: 'Font Awesome 5 Pro';
+$font-family-base: Arial, sans-serif;
+$link-decoration: none;
+$line-height-base: 1.5;
+$font-size-base: 1rem;
+$enable-rfs: false;
+
+/* ============ Headings ============ */
+$h1-font-size: $font-size-base * 2;
+$h2-font-size: $font-size-base * 1.5;
+$h3-font-size: $font-size-base * 1.4;
+$h4-font-size: $font-size-base * 1.3;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+$heading-font-family: Arial, sans-serif;
+$heading-font-weight: 700;
+$heading-color: $secondary;
+
+/* ============ Buttons ============ */
+$btn-padding-y: .5rem;
+$btn-padding-x: 1rem;
+$btn-padding-y-lg: .75rem;
+$btn-padding-x-lg: 1rem;
+$btn-font-size-lg: 1rem;
+$btn-font-weight: 600;
+$btn-border-width: 0;
+$btn-border-radius: 1.5rem;
+$btn-border-radius-sm: 1.5rem;
+$btn-border-radius-lg: 1.5rem;
+
+/* ============ Background ============ */
+$bg-linear-gradient: linear-gradient(270deg, #d9fae0 0%, rgba(247, 240, 234, 0) 100%);
+$bg-light: #d9fae0;
+
+/* ============ Tiles ============ */
+$tile-padding: 1.5rem;
+$tile-border: 1px dashed #ccc;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700&display=swap');
+
+$font-family-base: 'Poppins', sans-serif;
+$heading-font-family: 'Roboto Slab', serif;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
